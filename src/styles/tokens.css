@@ -1,0 +1,30 @@
+:root {
+  --bg: #fcfcfc;
+  --ink: #020202;
+  --line: #dadada;
+  --line-strong: #262626;
+  --line-dark: #262626;
+  --muted: #8c8c8c;
+  --muted-light: #a8a8a8;
+  --scroll: #5c5c5c;
+  --font-gothic: "Noto Sans", sans-serif;
+  --font-alp: "Barlow", sans-serif;
+  --ease-line: cubic-bezier(0, 0.55, 0.45, 1);
+  --ease-arrow: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  font-size: 4.9751243781vw;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 1.3888888889vw;
+  }
+}
+
+@media (min-width: 1680px) {
+  html {
+    font-size: 23.52px;
+  }
+}
