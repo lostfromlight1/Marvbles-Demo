@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "dummy-reel",
+    "title": "Dummy reel",
+    "poster": "/assets/ref/kv-stage.jpg",
+    "video": "",
+    "youtubeId": "",
+    "dummy": true,
+    "credits": [
+      { "role": "Animation", "name": "Dummy" },
+      { "role": "Direction", "name": "Dummy" }
+    ],
+    "storyboardFrames": [
+      "/assets/ref/kv-stills.jpg",
+      "/assets/ref/kv-figure.jpg",
+      "/assets/ref/vision-wide.jpg"
+    ],
+    "bts": [],
+    "talentSlugs": ["sasayaka-lumi"]
+  },
+  {
+    "slug": "dummy-storyboard",
+    "title": "Dummy storyboard",
+    "poster": "/assets/ref/kv-stills.jpg",
+    "video": "",
+    "youtubeId": "",
+    "dummy": true,
+    "credits": [{ "role": "Storyboard", "name": "Dummy" }],
+    "storyboardFrames": [
+      "/assets/ref/kv-stage.jpg",
+      "/assets/ref/collab-thumb.jpg"
+    ],
+    "bts": [],
+    "talentSlugs": ["morika-rei"]
+  },
+  {
+    "slug": "dummy-loop",
+    "title": "Dummy loop",
+    "poster": "/assets/ref/vision-wide.jpg",
+    "video": "",
+    "youtubeId": "",
+    "dummy": true,
+    "credits": [{ "role": "Animation", "name": "Dummy" }],
+    "storyboardFrames": [],
+    "bts": ["/assets/ref/kv-figure.jpg"],
+    "talentSlugs": ["seika-marionette"]
+  },
+  {
+    "slug": "dummy-unit-film",
+    "title": "Dummy unit film",
+    "poster": "/assets/ref/collab-thumb.jpg",
+    "video": "",
+    "youtubeId": "",
+    "dummy": true,
+    "credits": [
+      { "role": "Animation", "name": "Dummy" },
+      { "role": "Edit", "name": "Dummy" }
+    ],
+    "storyboardFrames": [
+      "/assets/ref/kv-stage.jpg",
+      "/assets/ref/kv-stills.jpg"
+    ],
+    "bts": [],
+    "talentSlugs": ["amanogawa", "nyanoh"]
+  }
+]

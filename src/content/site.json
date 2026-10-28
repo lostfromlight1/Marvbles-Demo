@@ -1,0 +1,16 @@
+{
+  "name": "Marvbles",
+  "unit": "Eonica and Nox",
+  "tagline": "Music, illustration, and animation",
+  "language": "en",
+  "story": "Marvbles is a hobby studio. The VSinger units are Eonica and Nox. The studio story is not added yet.",
+  "footerNote": "Email and Discord are not set yet.",
+  "nav": [
+    { "label": "Vsinger", "to": "/vsinger" },
+    { "label": "Illustration", "to": "/illustration" },
+    { "label": "Animation", "to": "/animation" },
+    { "label": "About", "to": "/about" }
+  ],
+  "socials": { "email": "", "discord": "" },
+  "exhibition": []
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "slug": "sasayaka-lumi",
+    "name": "Sasayaka Lumi",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Sasayaka Lumi. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "morika-rei",
+    "name": "Morika Rei",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-rei.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Morika Rei. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "seika-marionette",
+    "name": "Seika Marionette",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-misato.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Seika Marionette. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "amanogawa",
+    "name": "Amanogawa",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka-2.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Amanogawa. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "nyanoh",
+    "name": "Nyanoh",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-rei.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Nyanoh. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "hoshimi-ritsu",
+    "name": "Hoshimi Ritsu",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-misato.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Hoshimi Ritsu. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "kasumi-toka",
+    "name": "Kasumi Toka",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Kasumi Toka. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "danny-amberynth",
+    "name": "Danny Amberynth",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka-2.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Danny Amberynth. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    },
+    "dummy": false
+  },
+  {
+    "slug": "dummy-eonica-1",
+    "name": "Dummy Eonica 1",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Eonica 1. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-eonica-2",
+    "name": "Dummy Eonica 2",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-rei.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Eonica 2. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-eonica-3",
+    "name": "Dummy Eonica 3",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-misato.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Eonica 3. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-eonica-4",
+    "name": "Dummy Eonica 4",
+    "nameJp": "",
+    "unit": "Eonica",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka-2.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Eonica 4. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-nox-1",
+    "name": "Dummy Nox 1",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-rei.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Nox 1. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-nox-2",
+    "name": "Dummy Nox 2",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-misato.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Nox 2. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-nox-3",
+    "name": "Dummy Nox 3",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Nox 3. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  },
+  {
+    "slug": "dummy-nox-4",
+    "name": "Dummy Nox 4",
+    "nameJp": "",
+    "unit": "Nox",
+    "themeColor": "",
+    "avatar": "",
+    "portrait": "/assets/ref/cutout-asuka-2.png",
+    "fanName": "Dummy",
+    "oshiMark": "Dummy",
+    "birthday": "Dummy",
+    "height": "Dummy",
+    "debut": "Dummy",
+    "languages": [
+      "Dummy"
+    ],
+    "bio": "Dummy bio. This is placeholder copy for Dummy Nox 4. The real bio has not been added yet.",
+    "lore": "Dummy lore. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "dummy": true,
+    "socials": {
+      "youtube": "",
+      "twitch": "",
+      "x": "",
+      "tiktok": ""
+    }
+  }
+]

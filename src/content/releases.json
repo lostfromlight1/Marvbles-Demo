@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "dummy-cover",
+    "title": "Dummy cover",
+    "talentSlugs": [
+      "sasayaka-lumi"
+    ],
+    "type": "cover",
+    "date": "",
+    "jacket": "/assets/ref/jkt-alt.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-original",
+    "title": "Dummy original",
+    "talentSlugs": [
+      "morika-rei"
+    ],
+    "type": "original",
+    "date": "",
+    "jacket": "/assets/ref/jkt-orange.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-unit",
+    "title": "Dummy unit",
+    "talentSlugs": [
+      "seika-marionette",
+      "amanogawa"
+    ],
+    "type": "unit",
+    "date": "",
+    "jacket": "/assets/ref/jkt-mint.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-cover-2",
+    "title": "Dummy cover 2",
+    "talentSlugs": [
+      "nyanoh"
+    ],
+    "type": "cover",
+    "date": "",
+    "jacket": "/assets/ref/jkt-pause.jpg",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-original-2",
+    "title": "Dummy original 2",
+    "talentSlugs": [
+      "hoshimi-ritsu"
+    ],
+    "type": "original",
+    "date": "",
+    "jacket": "/assets/ref/jkt-howmany.jpg",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-unit-2",
+    "title": "Dummy unit 2",
+    "talentSlugs": [
+      "kasumi-toka",
+      "danny-amberynth"
+    ],
+    "type": "unit",
+    "date": "",
+    "jacket": "/assets/ref/jkt-alt.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-cover-3",
+    "title": "Dummy cover 3",
+    "talentSlugs": [
+      "amanogawa"
+    ],
+    "type": "cover",
+    "date": "",
+    "jacket": "/assets/ref/jkt-orange.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-original-3",
+    "title": "Dummy original 3",
+    "talentSlugs": [
+      "danny-amberynth"
+    ],
+    "type": "original",
+    "date": "",
+    "jacket": "/assets/ref/jkt-mint.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-eonica-song",
+    "title": "Dummy Eonica song",
+    "talentSlugs": [
+      "dummy-eonica-1"
+    ],
+    "type": "original",
+    "date": "",
+    "jacket": "/assets/ref/jkt-pause.jpg",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-nox-song",
+    "title": "Dummy Nox song",
+    "talentSlugs": [
+      "nyanoh"
+    ],
+    "type": "cover",
+    "date": "",
+    "jacket": "/assets/ref/jkt-howmany.jpg",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-nox-unit",
+    "title": "Dummy Nox unit",
+    "talentSlugs": [
+      "hoshimi-ritsu",
+      "kasumi-toka"
+    ],
+    "type": "unit",
+    "date": "",
+    "jacket": "/assets/ref/jkt-alt.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  },
+  {
+    "slug": "dummy-eonica-song-2",
+    "title": "Dummy Eonica song 2",
+    "talentSlugs": [
+      "sasayaka-lumi",
+      "morika-rei"
+    ],
+    "type": "unit",
+    "date": "",
+    "jacket": "/assets/ref/jkt-orange.png",
+    "dummy": true,
+    "credits": [
+      {
+        "role": "Illustration",
+        "name": "Dummy"
+      }
+    ],
+    "mvYoutubeId": "",
+    "streamingLinks": []
+  }
+]
