@@ -1,8 +1,20 @@
+import { Link, useLocation } from "react-router-dom"
 import { site } from "../../content"
 
+function isCurrent(to: string, pathname: string) {
+  if (to === "/") return pathname === "/"
+  return pathname === to || pathname.startsWith(`${to}/`)
+}
+
+function labelFor(key: string) {
+  return key.charAt(0).toUpperCase() + key.slice(1)
+}
+
 export function Footer() {
+  const { pathname } = useLocation()
+
   return (
-    <footer className="site-footer" data-bg="black">
+    <footer className="site-footer">
       <div className="footer-container">
         <div className="footer-section">
           <h2 className="footer-wordmark">{site.name}</h2>
@@ -13,7 +25,9 @@ export function Footer() {
           <ul className="footer-links">
             {site.nav.map((link) => (
               <li key={link.label}>
-                <a href={link.to}>{link.label}</a>
+                <Link to={link.to} aria-current={isCurrent(link.to, pathname) ? "page" : undefined}>
+                  {link.label}
+                </Link>
               </li>
             ))}
           </ul>
@@ -23,9 +37,13 @@ export function Footer() {
           <ul className="footer-links">
             {Object.entries(site.socials).map(([key, href]) => (
               <li key={key}>
-                <a href={href} target="_blank" rel="noreferrer">
-                  {key.charAt(0).toUpperCase() + key.slice(1)}
-                </a>
+                {href ? (
+                  <a href={href} target="_blank" rel="noreferrer">
+                    {labelFor(key)}
+                  </a>
+                ) : (
+                  <span>{labelFor(key)}</span>
+                )}
               </li>
             ))}
           </ul>

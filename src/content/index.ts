@@ -28,11 +28,3 @@ export function artworkBySlug(slug: string) {
 export function animationBySlug(slug: string) {
   return animations.find((piece) => piece.slug === slug)
 }
-
-export function initials(name: string) {
-  return name
-    .split(" ")
-    .map((part) => part[0] ?? "")
-    .join("")
-    .slice(0, 2)
-}

@@ -18,14 +18,20 @@ export function Animation() {
               <Link to={`/animation/${piece.slug}`}>
                 <span className="reel-poster">
                   {piece.poster ? (
-                    <img src={piece.poster} alt={piece.dummy ? "Dummy poster" : piece.title} />
+                    <img
+                      src={piece.poster}
+                      alt={piece.dummy ? "Dummy poster" : piece.title}
+                      width={1600}
+                      height={900}
+                      loading="lazy"
+                    />
                   ) : (
                     <span className="gallery-empty">Poster not added yet.</span>
                   )}
+                  <span className="index-no">{String(index + 1).padStart(2, "0")}</span>
                 </span>
                 <span className="reel-copy">
                   <span className="reel-title">
-                    <span className="index-no">{String(index + 1).padStart(2, "0")}</span>
                     {piece.dummy ? "[Dummy] " : ""}
                     {piece.title}
                   </span>

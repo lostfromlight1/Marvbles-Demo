@@ -4,8 +4,14 @@ import type { Talent } from "../../content/types"
 
 export function UnitTab({ unit, talents }: { unit: string; talents: Talent[] }) {
   const [selected, setSelected] = useState(0)
+  const [forUnit, setForUnit] = useState(unit)
+  if (forUnit !== unit) {
+    setForUnit(unit)
+    setSelected(0)
+  }
+  const index = forUnit === unit ? selected : 0
   const people = talents.filter((talent) => talent.unit === unit)
-  const current = people[selected]
+  const current = people[index]
 
   if (people.length === 0) {
     return (
@@ -26,20 +32,20 @@ export function UnitTab({ unit, talents }: { unit: string; talents: Talent[] }) 
   return (
     <div className="unit-tab">
       <div className="character-carousel">
-        <div className="carousel-content">
+        <div className="carousel-content" key={current.slug}>
           {current.portrait && (
             <div className="character-image">
-              <img src={current.portrait} alt={current.name} />
+              <img src={current.portrait} alt={current.name} width={800} height={800} loading="lazy" />
             </div>
           )}
           <div className="character-info">
             <div className="character-header">
-              <span className="character-number">{String(selected + 1).padStart(2, "0")}</span>
+              <span className="character-number">{String(index + 1).padStart(2, "0")}</span>
               <div>
-                <h3 className="character-name">
+                <p className="character-name">
                   {current.dummy ? "[Dummy] " : ""}
                   {current.name}
-                </h3>
+                </p>
                 {current.nameJp && <p className="character-name-jp">{current.nameJp}</p>}
               </div>
             </div>
@@ -121,18 +127,18 @@ export function UnitTab({ unit, talents }: { unit: string; talents: Talent[] }) 
           <div className="carousel-nav">
             <button
               type="button"
-              className="carousel-btn carousel-prev"
+              className="carousel-btn"
               onClick={handlePrev}
               aria-label="Previous character"
             >
               ←
             </button>
             <div className="carousel-counter">
-              {String(selected + 1).padStart(2, "0")} / {String(people.length).padStart(2, "0")}
+              {String(index + 1).padStart(2, "0")} / {String(people.length).padStart(2, "0")}
             </div>
             <button
               type="button"
-              className="carousel-btn carousel-next"
+              className="carousel-btn"
               onClick={handleNext}
               aria-label="Next character"
             >

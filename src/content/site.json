@@ -12,5 +12,11 @@
     { "label": "About", "to": "/about" }
   ],
   "socials": { "email": "", "discord": "" },
-  "exhibition": []
+  "exhibition": [],
+  "demoVideo": {
+    "youtubeId": "Rq0NjgXSj0s",
+    "title": "Tipsy",
+    "credit": "Wanuka",
+    "href": "https://youtu.be/Rq0NjgXSj0s?si=P9KNSmz6gtC3ubyb"
+  }
 }

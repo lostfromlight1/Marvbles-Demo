@@ -35,12 +35,13 @@ export function UnitRoster({ unit, talents }: { unit: string; talents: Talent[] 
               <div className="talent-drop">
                 <img
                   src={talent.portrait || "/assets/ref/dummy-portrait.svg"}
-                  alt="Dummy portrait"
+                  alt={talent.dummy && !talent.portrait ? "Dummy portrait" : talent.name}
                   width={280}
                   height={280}
+                  loading="lazy"
                 />
                 <p>{talent.bio || "Dummy bio."}</p>
-                <ul className="talent-socials">
+                <ul className="roster-socials">
                   {socialLabels.map(({ key, label }) => {
                     const href = talent.socials[key]
                     return (

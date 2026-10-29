@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom"
+import { YoutubePlayer } from "../components/media/YoutubePlayer"
 import { animationBySlug, talentBySlug } from "../content"
 import { usePageTitle } from "../ui/title"
 
@@ -24,14 +25,20 @@ export function AnimationDetail() {
     .filter((name): name is string => Boolean(name))
 
   return (
-    <article className="piece">
+    <article>
       <Link className="section-link piece-back" to="/animation">
         Animation
       </Link>
       {piece.dummy ? <p className="meta">Dummy</p> : null}
       <h1 className="page-title">{piece.dummy ? "[Dummy] " : ""}{piece.title}</h1>
       {piece.poster ? (
-        <img className="piece-poster" src={piece.poster} alt={piece.dummy ? "Dummy poster" : piece.title} />
+        <img
+          className="piece-poster"
+          src={piece.poster}
+          alt={piece.dummy ? "Dummy poster" : piece.title}
+          width={1600}
+          height={900}
+        />
       ) : (
         <div className="still-slot">Poster not added yet.</div>
       )}
@@ -55,7 +62,7 @@ export function AnimationDetail() {
           <ul>
             {piece.storyboardFrames.map((frame) => (
               <li key={frame}>
-                <img src={frame} alt="Dummy storyboard frame" />
+                <img src={frame} alt="Dummy storyboard frame" width={1600} height={900} loading="lazy" />
               </li>
             ))}
           </ul>
@@ -67,15 +74,17 @@ export function AnimationDetail() {
           <ul>
             {piece.bts.map((frame) => (
               <li key={frame}>
-                <img src={frame} alt="Dummy behind the scenes still" />
+                <img src={frame} alt="Dummy behind the scenes still" width={1600} height={900} loading="lazy" />
               </li>
             ))}
           </ul>
         </section>
       ) : null}
-      <p className="empty piece-note">
-        {piece.youtubeId ? "YouTube embed is ready for a later pass." : "No YouTube id yet."}
-      </p>
+      {piece.youtubeId ? (
+        <YoutubePlayer youtubeId={piece.youtubeId} title={`${piece.title} video`} />
+      ) : (
+        <p className="empty piece-note">No YouTube id yet.</p>
+      )}
     </article>
   )
 }

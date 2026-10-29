@@ -43,7 +43,7 @@ export function Vsinger() {
 
       <UnitTab unit={tab} talents={talents} />
 
-      <h2 className="content-title" style={{ marginTop: "2.4rem" }}>
+      <h2 className="content-title">
         Songs
       </h2>
       <div className="filters" role="group" aria-label="Song type">

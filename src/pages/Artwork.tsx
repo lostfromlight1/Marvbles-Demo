@@ -34,7 +34,7 @@ export function Artwork() {
         <div className="still-slot">Image not added yet.</div>
       )}
       {artwork.process.length > 0 ? (
-        <p className="meta" style={{ marginTop: "0.8rem" }}>
+        <p className="meta">
           {artwork.process.join(" → ")}
         </p>
       ) : null}

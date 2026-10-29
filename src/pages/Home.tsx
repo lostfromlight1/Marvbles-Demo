@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { DiscographyReel } from "../components/media/DiscographyReel"
-import { VideoCompilation } from "../components/media/VideoCompilation"
+import { YoutubePlayer } from "../components/media/YoutubePlayer"
 import { UnitRoster } from "../components/ui/UnitRoster"
 import { releases, site, talents } from "../content"
 import { usePageTitle } from "../ui/title"
@@ -19,8 +19,18 @@ export function Home() {
         </div>
       </section>
 
-      <section className="block mv-block" id="video" aria-label="Dummy video">
-        <VideoCompilation />
+      <section className="block mv-block" id="video" aria-label="Demo music video">
+        <YoutubePlayer
+          youtubeId={site.demoVideo.youtubeId}
+          title={`${site.demoVideo.title} by ${site.demoVideo.credit}`}
+        />
+        <p className="mv-credit">
+          Demo.{" "}
+          <a href={site.demoVideo.href} target="_blank" rel="noreferrer">
+            {site.demoVideo.title}
+          </a>{" "}
+          by {site.demoVideo.credit}.
+        </p>
       </section>
 
       <section className="block" id="works">

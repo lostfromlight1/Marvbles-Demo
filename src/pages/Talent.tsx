@@ -65,7 +65,12 @@ export function Talent() {
             </dl>
           </div>
           <figure className="talent-cutout">
-            <img src={portrait} alt="Dummy portrait" />
+            <img
+              src={portrait}
+              alt={talent.dummy && !talent.portrait ? "Dummy portrait" : talent.name}
+              width={800}
+              height={1000}
+            />
             <figcaption>Dummy</figcaption>
           </figure>
         </div>
@@ -75,7 +80,13 @@ export function Talent() {
             <p>{talent.debut || "Dummy"}</p>
             {feature ? (
               <Link className="talent-jacket" to={`/vsinger/release/${feature.slug}`}>
-                <img src={feature.jacket} alt={feature.dummy ? "Dummy jacket" : feature.title} />
+                <img
+                  src={feature.jacket}
+                  alt={feature.dummy ? "Dummy jacket" : feature.title}
+                  width={1024}
+                  height={1024}
+                  loading="lazy"
+                />
                 <span>{feature.dummy ? "[Dummy] " : ""}{feature.title}</span>
               </Link>
             ) : (
@@ -125,7 +136,13 @@ export function Talent() {
           <div>
             {feature ? (
               <Link className="talent-jacket" to={`/vsinger/release/${feature.slug}`}>
-                <img src={feature.jacket} alt={feature.dummy ? "Dummy jacket" : feature.title} />
+                <img
+                  src={feature.jacket}
+                  alt={feature.dummy ? "Dummy jacket" : feature.title}
+                  width={1024}
+                  height={1024}
+                  loading="lazy"
+                />
                 <span>{feature.dummy ? "[Dummy] " : ""}{feature.title}</span>
               </Link>
             ) : (

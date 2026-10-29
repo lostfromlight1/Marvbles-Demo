@@ -2,24 +2,36 @@
   --bg: #fcfcfc;
   --ink: #020202;
   --line: #dadada;
-  --line-strong: #262626;
   --line-dark: #262626;
-  --muted: #8c8c8c;
-  --muted-light: #a8a8a8;
   --scroll: #5c5c5c;
+  --muted: var(--scroll);
+  --muted-light: #a8a8a8;
   --font-gothic: "Noto Sans", sans-serif;
   --font-alp: "Barlow", sans-serif;
   --ease-line: cubic-bezier(0, 0.55, 0.45, 1);
   --ease-arrow: cubic-bezier(0.22, 1, 0.36, 1);
+  --glass: color-mix(in srgb, var(--bg) 72%, transparent);
+  --glass-blur: 18px;
+  --page-gutter: 1.25rem;
+  --content-max: 68rem;
+  --content-width: min(var(--content-max), calc(100% - 2 * var(--page-gutter)));
+}
+
+@media (max-width: 639px) {
+  :root {
+    --page-gutter: 1rem;
+  }
 }
 
 html {
-  font-size: 4.9751243781vw;
+  /* 360px size is the ceiling so tablet widths do not scale type up. */
+  font-size: min(4.9751243781vw, 17.9104px);
 }
 
 @media (min-width: 1024px) {
+  /* 1440px size is the floor so widths near 1100px do not scale type down. */
   html {
-    font-size: 1.3888888889vw;
+    font-size: max(1.3888888889vw, 20px);
   }
 }
 

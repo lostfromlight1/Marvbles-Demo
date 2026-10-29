@@ -83,4 +83,5 @@ export type Site = {
   nav: { label: string; to: string }[]
   socials: { email: string; discord: string }
   exhibition: string[]
+  demoVideo: { youtubeId: string; title: string; credit: string; href: string }
 }

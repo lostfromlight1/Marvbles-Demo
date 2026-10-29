@@ -5,7 +5,7 @@ import { ScrollToTop } from "./ScrollToTop"
 
 export function Shell() {
   return (
-    <div className="shell">
+    <>
       <ScrollToTop />
       <a className="skip-link" href="#content">
         Skip to content
@@ -15,6 +15,6 @@ export function Shell() {
         <Outlet />
       </main>
       <Footer />
-    </div>
+    </>
   )
 }

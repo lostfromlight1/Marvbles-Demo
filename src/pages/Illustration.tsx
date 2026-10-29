@@ -45,6 +45,7 @@ export function Illustration() {
                     alt={artwork.alt || "Dummy illustration"}
                     width={artwork.width || 1024}
                     height={artwork.height || 1024}
+                    loading="lazy"
                   />
                 ) : (
                   <span className="gallery-empty">Image not added yet.</span>

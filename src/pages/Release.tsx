@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom"
+import { YoutubePlayer } from "../components/media/YoutubePlayer"
 import { releaseBySlug, talentBySlug } from "../content"
 import { usePageTitle } from "../ui/title"
 
@@ -45,9 +46,11 @@ export function Release() {
           </li>
         ))}
       </ul>
-      <div className="youtube-slot">
-        {release.mvYoutubeId ? "YouTube embed is ready for a later pass." : "No YouTube id yet."}
-      </div>
+      {release.mvYoutubeId ? (
+        <YoutubePlayer youtubeId={release.mvYoutubeId} title={`${release.title} music video`} />
+      ) : (
+        <div className="youtube-slot">No YouTube id yet.</div>
+      )}
     </>
   )
 }
